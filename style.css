@@ -262,7 +262,7 @@ header nav > ul > li > a > span{
 }
 
 .socialfeeds {
-    margin: 960px;
+    width: 960px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -292,6 +292,9 @@ header nav > ul > li > a > span{
     list-style: none;
     display: inline-block;
     padding: 10px 70px;
+    width: 60px;
+    text-align: center;
+    float
 
 }
 
@@ -328,4 +331,136 @@ header nav > ul > li > a > span{
 
     margin: -9px;
     background: #758b9a;
+}
+
+.box1 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: left;
+}
+
+.box1 > ul {
+    list-style: none;
+}
+
+.box > ul > li > a {
+    text-decoration: none;
+}
+
+.box2 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: right;
+}
+
+.box2 ul {
+    list-style: none;
+}
+
+.box3 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: left;
+}
+
+.box3 > ul {
+    list-style: none;
+}
+
+.box4 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: right;
+}
+
+.box4 > ul {
+    list-style: none;
+}
+
+.box5 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: left;
+}
+
+.box5 > ul {
+    list-style: none;
+}
+
+.box6 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: right;
+}
+
+.box6 > ul {
+    list-style: none;
+}
+
+.box7 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    background: #f0f0f0;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: left;
+}
+
+.box7 > ul {
+    list-style: none;
+}
+
+.box8 {
+    margin-top: 30px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    height: 150px;
+    width: 45%;
+    position: relative;
+    float: right;
+    background: #f0f0f0;
+}
+
+.box8 > ul {
+    list-style: none;
 }
