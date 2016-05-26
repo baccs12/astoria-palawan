@@ -139,7 +139,6 @@ header nav > ul > li > a > span{
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-
 }
 
 .panel > ul {
@@ -149,13 +148,14 @@ header nav > ul > li > a > span{
 
 }
 
+
 .panel > ul > li:first-child {
     font-size: 50px;
 }
 
 .panel > ul > li:nth-child(2) {
     font-size: 20px;
-    margin-bottom: 260px;
+    margin-bottom: 200px;
     margin-top: 50px;
 }
 
@@ -202,8 +202,10 @@ header nav > ul > li > a > span{
 
 .panel-container {
     width: auto;
-    overflow: hidden;
-    border: 4px solid red;
+    overflow: auto;
+    height: 100;
+    margin-bottom: 50px;
+    /*border: 4px solid red;*/
 }
 
 .input-group {
@@ -224,4 +226,24 @@ header nav > ul > li > a > span{
     margin: 5px;
     background: #00AF9F;
 
+}
+.slider {
+    position: relative;
+    width: 100%;
+    height: 540px;
+}
+.slider img {
+    height: 540px;
+    position: absolute;
+}
+.slider img:nth-child(1) {
+    left: -792px;
+}
+.slider img:nth-child(3) {
+    right: -792px;
+
+}
+.slider img:nth-child(2) {
+    left: 168px;
+    width: 960px;
 }
