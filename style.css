@@ -129,9 +129,10 @@ header nav > ul > li > a > span{
 }
 
 .panel > ul > li:nth-child(2) {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 200px;
     margin-top: 50px;
+    color: #3B90A7;
 }
 
 .panel > ul > li:last-child {
@@ -286,6 +287,7 @@ header nav > ul > li > a > span{
     width: 960px;
     margin:0 auto;
     margin-top: 25px;
+    padding: 0;
 }
 
 .socialfeeds > ul >li {
@@ -339,7 +341,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: left;
@@ -359,7 +361,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: right;
@@ -375,7 +377,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: left;
@@ -391,7 +393,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: right;
@@ -407,7 +409,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: left;
@@ -423,7 +425,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: right;
@@ -439,7 +441,7 @@ header nav > ul > li > a > span{
     list-style: none;
     display: block;
     background: #f0f0f0;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: left;
@@ -454,13 +456,19 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    height: 150px;
+    padding: 20px;
     width: 45%;
     position: relative;
     float: right;
     background: #f0f0f0;
+    margin-bottom: 50px;
 }
 
 .box8 > ul {
     list-style: none;
+}
+
+.map {
+    width:100%;
+    height: auto;
 }
