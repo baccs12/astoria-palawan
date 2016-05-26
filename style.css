@@ -262,8 +262,13 @@ header nav > ul > li > a > span{
 
 }
 
+.cont {
+    background: #f0f0f0;
+    width: 100%;
+}
+
 .socialfeeds {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -340,7 +345,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -360,7 +365,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -376,7 +381,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -392,7 +397,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -408,7 +413,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -424,7 +429,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -440,7 +445,7 @@ header nav > ul > li > a > span{
     text-align: left;
     list-style: none;
     display: block;
-    background: #f0f0f0;
+    background: #fff;
     padding: 20px;
     width: 45%;
     position: relative;
@@ -460,7 +465,7 @@ header nav > ul > li > a > span{
     width: 45%;
     position: relative;
     float: right;
-    background: #f0f0f0;
+    background: #fff;
     margin-bottom: 50px;
 }
 
@@ -468,7 +473,44 @@ header nav > ul > li > a > span{
     list-style: none;
 }
 
-.map {
-    width:100%;
-    height: auto;
+#gmap_canvas {
+    position: relative;
+    min-width:100%;
+    min-height: 200px;
 }
+
+.map-add {
+    padding: 20px;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 3130px;
+    margin-left: 150px;
+
+}
+
+.map-add ul {
+    list-style: none;
+}
+
+
+.map-add ul > p:nth-child(1) {
+     color: #3B90A7;
+     margin: 0;
+     padding: 0;
+}
+
+.map-add ul > p:nth-child(2) {
+     color: #3B90A7;
+     font-size:25px;
+     margin: 0;
+     padding: 0;
+     margin-bottom: 20px;
+}
+
+.map-add ul > li {
+     color: #3B90A7;
+}
+
