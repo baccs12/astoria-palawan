@@ -233,6 +233,7 @@ header nav > ul > li > a > span {
     position: relative;
     width: 100%;
     height: 540px;
+    overflow: hidden;
 }
 .slider img {
     height: 540px;
@@ -330,7 +331,7 @@ header nav > ul > li > a > span {
 .socialfeeds > ul >li > a {
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 .socialfeeds > ul > li:nth-child(1) {
@@ -361,171 +362,69 @@ header nav > ul > li > a > span {
     margin: -9px;
     background: #758b9a;
 }
-
+.events {
+    width: 48%;
+    float: left;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
 .box1 {
     margin-top: 30px;
     text-align: left;
     list-style: none;
-    display: block;
     background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: left;
+    width: 96%;
+    padding: 10px;
 }
 
 .box1 > ul {
     list-style: none;
+    padding: 0;
 }
 
 
 .box1 > ul > img {
     border-radius: 50%;
+    float: left;
 }
-
-.box > ul > li > a {
-    text-decoration: none;
+.box1 ul p {
+    margin-left: 70px;
 }
-
-.box2 > ul > img {
-    border-radius: 50%;
+.box1 ul li a {
+    margin-left: 70px;
 }
-
+.microsoft {
+    width: 48%;
+    float: right;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
 .box2 {
     margin-top: 30px;
     text-align: left;
     list-style: none;
-    display: block;
     background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: right;
+    width: 96%;
+    padding: 10px;
 }
 
-.box2 ul {
+.box2 > ul {
     list-style: none;
+    padding: 0;
 }
 
-.box3 > ul > img {
+
+.box2 > ul > img {
     border-radius: 50%;
-}
-
-.box3 {
-    margin-top: 30px;
-    text-align: left;
-    list-style: none;
-    display: block;
-    background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
     float: left;
 }
-
-.box3 > ul {
-    list-style: none;
+.box2 ul p {
+    margin-left: 70px;
 }
-
-.box4 > ul > img {
-    border-radius: 50%;
-}
-
-.box4 {
-    margin-top: 30px;
-    text-align: left;
-    list-style: none;
-    display: block;
-    background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: right;
-}
-
-.box4 > ul {
-    list-style: none;
-}
-
-.box5 > ul > img {
-    border-radius: 50%;
-}
-
-.box5 {
-    margin-top: 30px;
-    text-align: left;
-    list-style: none;
-    display: block;
-    background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: left;
-}
-
-.box5 > ul {
-    list-style: none;
-}
-
-.box6 > ul > img {
-    border-radius: 50%;
-}
-
-.box6 {
-    margin-top: 30px;
-    text-align: left;
-    list-style: none;
-    display: block;
-    background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: right;
-}
-
-.box6 > ul {
-    list-style: none;
-}
-
-.box7 > ul > img {
-    border-radius: 50%;
-}
-
-.box7 {
-    margin-top: 30px;
-    text-align: left;
-    list-style: none;
-    display: block;
-    background: #fff;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: left;
-}
-
-.box7 > ul {
-    list-style: none;
-}
-
-.box8 > ul > img {
-    border-radius: 50%;
-}
-
-.box8 {
-    margin-top: 30px;
-    text-align: left;
-    list-style: none;
-    display: block;
-    padding: 20px;
-    width: 45%;
-    position: relative;
-    float: right;
-    background: #fff;
-    margin-bottom: 50px;
-}
-
-.box8 > ul {
-    list-style: none;
+.box2 ul li a {
+    margin-left: 70px;
 }
 
 #gmap_canvas {
