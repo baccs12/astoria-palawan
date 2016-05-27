@@ -50,9 +50,9 @@ summary { /* 1 */
 audio,
 canvas,
 progress,
-video {
+/*video {
   display: inline-block;
-}
+}*/
 
 /**
  * Add the correct display in iOS 4-7.
